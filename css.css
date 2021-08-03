@@ -1,0 +1,121 @@
+:root {
+    --brightOrange: hsl(31, 77%, 52%);
+    --darkCyan: hsl(184, 100%, 22%);
+    --veryDarkCyan: hsl(179, 100%, 13%);
+    --lightGray: hsl(0, 0%, 95%) ;
+    --transparentWhite: hsla(0, 0%, 100%, 0.75);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    background-color: var(--lightGray);
+}
+.attribution { 
+    font-size: 18px; text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+    text-decoration:  none;
+}
+#grid-container {
+    display:  grid;
+    grid-template-columns: auto auto auto;
+    width:  70%;
+    height:  auto;
+    margin:  auto;
+    margin-top:  50px;
+    border-radius:  10px;
+    overflow:  hidden;
+    margin-bottom:  20px;
+}
+h1 {
+    margin-top: 40px;
+    color:  var(--lightGray);
+    font-family: "Big Shoulders Display", sans-serif ;
+}
+p, a, .attribution {
+    font-family: "Lexend Deca", sans-serif  ;
+}
+p {
+    color:  var(--transparentWhite);
+}
+#sedans-flex, #suv-flex, #luxury-flex {
+    display:  flex;
+    flex-flow:  column wrap;
+}
+#sedans-flex {
+    background-color:  var(--brightOrange);
+}
+#suv-flex {
+    background-color:  var(--darkCyan);
+}
+#luxury-flex {
+    background-color: var(--veryDarkCyan);
+}
+img {
+    margin-top: 40px;
+}
+#pad {
+    padding:  30px;
+}
+#description {
+    width:  80%;
+    margin: 40px 0 60px 0;
+    font-size:  15px;
+}
+button {
+    width:  50%;
+    margin: 2px 2px 42px 2px;
+    border:  none;
+    border-radius:  50px;
+    height:  auto;
+}
+button a {
+    text-decoration:  none;
+    display:  block;
+}
+#sedan-learn a {
+    color: var(--brightOrange);
+    padding:  20px 0;
+}
+#suv-learn a {
+    color: var(--darkCyan);
+    padding:  20px 0;
+}
+#luxury-learn a {
+    color: var(--veryDarkCyan);
+    padding:  20px 0;
+}
+#sedan-learn:hover {
+    background-color: var(--brightOrange);
+    border:  2px solid white;
+    margin: 0 0 40px 0;
+}
+#suv-learn:hover  {
+    background-color: var(--darkCyan);
+    border:  2px solid white;
+    margin: 0 0 40px 0;
+}
+#luxury-learn:hover  {
+    background-color: var(--veryDarkCyan);
+    border:  2px solid white;
+    margin: 0 0 40px 0;
+}
+#sedan-learn:hover a {
+    color:  var(--lightGray);
+}
+#suv-learn:hover a {
+    color:  var(--lightGray);
+}
+#luxury-learn:hover a {
+    color:  var(--lightGray);
+}
+@media (max-width: 375px) {
+    #grid-container {
+    grid-template-columns: 100%;
+    width:  80%;
+    }
+}
