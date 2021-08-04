@@ -58,10 +58,10 @@ p {
 img {
     margin-top: 40px;
 }
-#pad {
+#sedan-wrapper, #suv-wrapper, #luxury-wrapper {
     padding:  30px;
 }
-#description {
+#sedan-description, #suv-description, #luxury-description {
     width:  80%;
     margin: 40px 0 60px 0;
     font-size:  15px;
