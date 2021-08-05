@@ -36,7 +36,7 @@ h1 {
     color:  var(--lightGray);
     font-family: "Big Shoulders Display", sans-serif ;
 }
-p, a, .attribution {
+p,button > span, .attribution {
     font-family: "Lexend Deca", sans-serif  ;
 }
 p {
@@ -73,19 +73,19 @@ button {
     border-radius:  50px;
     height:  auto;
 }
-button a {
+button > span {
     text-decoration:  none;
     display:  block;
 }
-#sedan-learn a {
+#sedan-learn span {
     color: var(--brightOrange);
     padding:  20px 0;
 }
-#suv-learn a {
+#suv-learn span {
     color: var(--darkCyan);
     padding:  20px 0;
 }
-#luxury-learn a {
+#luxury-learn span {
     color: var(--veryDarkCyan);
     padding:  20px 0;
 }
@@ -104,13 +104,13 @@ button a {
     border:  2px solid white;
     margin: 0 0 40px 0;
 }
-#sedan-learn:hover a {
+#sedan-learn:hover span {
     color:  var(--lightGray);
 }
-#suv-learn:hover a {
+#suv-learn:hover span {
     color:  var(--lightGray);
 }
-#luxury-learn:hover a {
+#luxury-learn:hover span {
     color:  var(--lightGray);
 }
 @media (max-width: 375px) {
