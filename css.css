@@ -31,7 +31,7 @@ html {
     overflow:  hidden;
     margin-bottom:  20px;
 }
-h1 {
+h2 {
     margin-top: 40px;
     color:  var(--lightGray);
     font-family: "Big Shoulders Display", sans-serif ;
@@ -118,4 +118,6 @@ button > span {
     grid-template-columns: 100%;
     width:  80%;
     }
+}
+
 }
